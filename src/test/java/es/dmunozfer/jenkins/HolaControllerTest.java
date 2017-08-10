@@ -46,7 +46,7 @@ public class HolaControllerTest {
 	.andExpect(content().string(containsString("¡Hola Mundo!")))
 	;
     }
-    //comentado para pruebas
+    //comentado para prueba
     /*@Test
     public void holaDavid() throws Exception {
 	mockMvc.perform(get("/hola?nombre=David"))
