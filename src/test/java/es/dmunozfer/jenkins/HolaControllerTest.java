@@ -18,7 +18,7 @@ public class HolaControllerTest {
     
     @Before
     public void setUp() throws Exception {
-		selenium = new DefaultSelenium("localhost", 4444, "*firefox", "http://www.adictosaltrabajo.com/");
+		selenium = new DefaultSelenium("13.90.82.96", 4444, "*firefox", "http://www.adictosaltrabajo.com/");
 		selenium.start();
 	}
 
