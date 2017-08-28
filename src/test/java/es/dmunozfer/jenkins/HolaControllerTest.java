@@ -1,9 +1,5 @@
 package es.dmunozfer.jenkins;
 
-import static org.hamcrest.Matchers.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
 import com.thoughtworks.selenium.*;
 import org.junit.After;
 import org.junit.Before;
